@@ -6,7 +6,6 @@ Welcome to my GitHub repository! This repository showcases a collection of my pr
 - [Introduction](#introduction)
 - [Bioinformatics Projects](#bioinformatics-projects)
 - [Healthcare Data Science Projects](#healthcare-data-science-projects)
-- [Data Science Projects](#data-science-projects)
 - [Tools and Technologies](#tools-and-technologies)
 - [How to Use This Repository](#how-to-use-this-repository)
 - [Contact](#contact)
