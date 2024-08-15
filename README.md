@@ -74,8 +74,8 @@ To explore a specific project, navigate to the corresponding directory and follo
 
 ## Contact
 Feel free to reach out to me if you have any questions or if you'd like to discuss potential collaborations:
-- **Email:** [(alexg9630@gmail.com]
-- **LinkedIn:** [(https://www.linkedin.com/in/alexander-m-garcia/]
+- **Email:** [alexg9630@gmail.com]
+- **LinkedIn:** [https://www.linkedin.com/in/alexander-m-garcia/]
 
 Thank you for visiting my repository! I hope you find my work interesting and valuable.
 
