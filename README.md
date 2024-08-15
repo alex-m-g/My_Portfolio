@@ -26,14 +26,6 @@ I am passionate about leveraging data science techniques and bioinformatics to s
 - **Description:** Predicting 3D structures of proteins based on amino acid sequences.
 - **Key Techniques:** Homology modeling, molecular dynamics simulations.
 
-### 4. Transcriptomics-based Biomarker Development
-- **Description:** Identifying and validating transcriptomic biomarkers for disease diagnosis and prognosis.
-- **Key Techniques:** Machine learning, feature selection, validation using external datasets.
-
-### 5. Genotype-Phenotype Relationship
-- **Description:** Linking genotypic data with phenotypic traits to understand underlying biological mechanisms.
-- **Key Techniques:** Statistical analysis, correlation studies, machine learning.
-
 ## Healthcare Data Science Projects
 ### 1. Patient Risk Detection
 - **Description:** Predicting patient risk factors to improve clinical decision-making and patient outcomes.
