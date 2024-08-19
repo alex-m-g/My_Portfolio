@@ -43,3 +43,18 @@ Solution: Purchase a computer with the specified requirements
 ## Instructions on How to Run the Code
 
 There is only a provided Jupyter notebook to preview my results. However, a Python file will be provided once the problem has been resolved.
+
+## Accomplishments:
+- Pre-processing clustering with one sample
+- Integration of multiple samples
+- Found marker genes
+- Plotted said marker genes
+- Labeling cells
+- Counted the fraction of cells
+- Differential expression between two different groups of cells
+- Made differential expression heat maps
+- Gene ontology
+- Keg enrichment
+- Comparisons between genes in different conditions
+- Statistical testing
+- Scored cells based on their expression of gene signatures... and plotted it
