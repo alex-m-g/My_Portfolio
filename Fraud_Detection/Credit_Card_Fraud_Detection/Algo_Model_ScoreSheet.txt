@@ -1,0 +1,99 @@
+UNBALANCED MODEL TRAIN
+
+Logistic Regression Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       1.00      1.00      1.00     22771
+       Fraud       0.83      0.56      0.67        36
+------------------------------------------------------
+Shallow Neural Network Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       1.00      1.00      1.00     22771
+       Fraud       0.73      0.75      0.74        36
+------------------------------------------------------
+Random Forest Classifier Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       1.00      1.00      1.00     22771
+       Fraud       0.81      0.47      0.60        36
+------------------------------------------------------
+Gradient Boosting Classifier Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       1.00      1.00      1.00     22771
+       Fraud       0.67      0.67      0.67        36
+------------------------------------------------------
+Linear SVC Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       1.00      0.98      0.99     22771
+       Fraud       0.07      0.97      0.14        36
+------------------------------------------------------
+
+BALANCED MODEL TRAIN
+
+Logistic Regression Model: (2nd Place)
+              precision    recall  f1-score   support
+
+   Not Fraud       0.96      0.93      0.94        72
+       Fraud       0.93      0.96      0.94        70
+------------------------------------------------------
+Shallow Neural Network Model: (3rd Place)
+              precision    recall  f1-score   support
+
+   Not Fraud       0.89      1.00      0.94        72
+       Fraud       1.00      0.87      0.93        70
+------------------------------------------------------
+Random Forest Classifier Model: (5th Place)
+              precision    recall  f1-score   support
+
+   Not Fraud       0.70      1.00      0.82        72
+       Fraud       1.00      0.56      0.72        70
+------------------------------------------------------
+Gradient Boosting Classifier Model: (4th Place)
+              precision    recall  f1-score   support
+
+   Not Fraud       0.94      0.90      0.92        72
+       Fraud       0.90      0.94      0.92        70
+------------------------------------------------------
+Linear SVC Model: (1st Place)
+              precision    recall  f1-score   support
+
+   Not Fraud       0.95      0.97      0.96        72
+       Fraud       0.97      0.94      0.96        70
+------------------------------------------------------
+
+COMBINED MODELS (4 BEST MODELS)
+              precision    recall  f1-score   support
+
+   Not Fraud       0.96      0.93      0.94        72
+       Fraud       0.93      0.96      0.94        70
+
+    accuracy                           0.94       142
+   macro avg       0.94      0.94      0.94       142
+weighted avg       0.94      0.94      0.94       142
+
+------------------------------------------------------
+
+TEST
+Linear SVC Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       0.92      0.95      0.93        73
+       Fraud       0.94      0.91      0.93        69
+
+    accuracy                           0.93       142
+   macro avg       0.93      0.93      0.93       142
+weighted avg       0.93      0.93      0.93       142
+------------------------------------------------------
+
+Combined Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       0.92      0.96      0.94        73
+       Fraud       0.95      0.91      0.93        69
+
+    accuracy                           0.94       142
+   macro avg       0.94      0.94      0.94       142
+weighted avg       0.94      0.94      0.94       1
