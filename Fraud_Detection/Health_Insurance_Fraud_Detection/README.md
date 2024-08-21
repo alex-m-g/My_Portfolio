@@ -20,7 +20,7 @@ Problem Statement
 This project aims to " predict the potentially fraudulent providers " based on the claims filed by them. We will also discover important variables that help detect the behavior of potential fraud providers. Further, we will study fraudulent patterns in the provider's claims to understand the future behaviour of providers.
 
 ## Analysis Error (8/21/2024)
-The Jupyter file Health_Insurance_Fraud_Detection.ipyb was the first try at data wrangling and analysis. However, a ROC-AUC curve analysis showed poor True Positive Rates. Will need to re-analyze and re-wrangle the data.
+The Jupyter file Health_Insurance_Fraud_Detection.ipyb was the first try at data wrangling and analysis. However, a ROC-AUC curve analysis showed poor True Positive Rates. F1-score Poor. Will need to re-analyze and re-wrangle the data.
 
 ## How To Improve AUC?
 To improve AUC, it is important to improve the classifier's performance. Several measures could be taken for experimentation. However, it will depend on the problem and the data to decide which measure will work. 
