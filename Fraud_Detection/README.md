@@ -12,4 +12,4 @@ It contains only numerical input variables which are the result of a PCA transfo
 Given the class imbalance ratio, we recommend measuring the accuracy using the Area Under the Precision-Recall Curve (AUPRC). Confusion matrix accuracy is not meaningful for unbalanced classification.
 
 ## Health Insurance Fraud Detection
-https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis/data
+Dataset: [Healthcare_Provider_Fraud_Detection](https://www.kaggle.com/datasets/rohitrox/healthcare-provider-fraud-detection-analysis/data)
