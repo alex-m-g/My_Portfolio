@@ -22,6 +22,9 @@ This project aims to " predict the potentially fraudulent providers " based on t
 ## Analysis Error (8/21/2024)
 The Jupyter file Health_Insurance_Fraud_Detection.ipyb was the first try at data wrangling and analysis. However, a ROC-AUC curve analysis showed poor True Positive Rates. F1-score Poor. Will need to re-analyze and re-wrangle the data.
 
+## Analysis Update (8/23/2024)
+Redid the data wrangling and retry the model training, validation, and testing. F1 scores and ROC-AUC scores are much better. However, I did not balance the dataset to equal amounts of 'Fraudulent' and "non-fraudulent' transactions. Will continue data wrangling to equalize the data and retrain the models and observe if there is any improvements.
+
 ## How To Improve AUC?
 To improve AUC, it is important to improve the classifier's performance. Several measures could be taken for experimentation. However, it will depend on the problem and the data to decide which measure will work. 
 
