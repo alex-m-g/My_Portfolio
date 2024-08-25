@@ -22,39 +22,39 @@ This project aims to " predict the potentially fraudulent providers " based on t
 
 ## Libraries and Frameworks:
 
-- scikit-learn: Implemented machine learning models, model evaluation metrics, hyperparameter tuning, and data preprocessing.
-- SciPy: Utilized indirectly through scikit-learn for optimization and statistical functions.
-- XGBoost: Used for gradient boosting models.
+- **scikit-learn**: Implemented machine learning models, model evaluation metrics, hyperparameter tuning, and data preprocessing.
+- **SciPy**: Utilized indirectly through scikit-learn for optimization and statistical functions.
+- **XGBoost**: Used for gradient boosting models.
 
 ## Machine Learning Algorithms:
 
-- Logistic Regression
-- Support Vector Machines (SVM) with SVC and LinearSVC
-- Naive Bayes (GaussianNB)
-- Decision Trees
-- Random Forest
-- XGBoost (XGBClassifier)
+- **Logistic Regression**
+- Support Vector Machines (SVM) with **SVC** and **LinearSVC**
+- Naive Bayes (**GaussianNB**)
+- **Decision Trees**
+- **Random Forest**
+- XGBoost (**XGBClassifier**)
 
 ## Model Evaluation and Tuning:
 
-- GridSearchCV and RandomizedSearchCV for hyperparameter tuning
+- **GridSearchCV** and **RandomizedSearchCV** for hyperparameter tuning
 - Confusion Matrix, ROC Curve, AUC, F1 Score for model evaluation
-- CalibratedClassifierCV for probability calibration of classifiers
+- **CalibratedClassifierCV** for probability calibration of classifiers
 - Classification Report generation for detailed performance metrics
 
 ## Data Preprocessing:
-- Data splitting with train_test_split
-- Feature scaling using StandardScaler
+- Data splitting with **train_test_split**
+- Feature scaling using **StandardScaler**
 
 ## Data Visualization:
 
-- Used Seaborn and Matplotlib for data visualization and plotting of model performance metrics.
+- Used **Seaborn** and **Matplotlib** for data visualization and plotting of model performance metrics.
 
 ## Programming and Scripting:
 
-- Python programming in a Jupyter Notebook environment
-- Data manipulation with NumPy
-- File and directory handling using os module
+- **Python** programming in a Jupyter Notebook environment
+- Data manipulation with **NumPy** and **Pandas**
+- File and directory handling using **os** module
 
 ## Project Outcomes:
 
