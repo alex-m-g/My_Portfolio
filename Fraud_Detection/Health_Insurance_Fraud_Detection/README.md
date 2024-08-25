@@ -17,29 +17,16 @@ d) Charging for a more complex or expensive service than was actually provided.
 e) Billing for a covered service when the service actually provided was not covered.
 
 Problem Statement
-This project aims to " predict the potentially fraudulent providers " based on the claims filed by them. We will also discover important variables that help detect the behavior of potential fraud providers. Further, we will study fraudulent patterns in the provider's claims to understand the future behaviour of providers.
+This project aims to " predict the potentially fraudulent providers " based on the claims filed by them. We will also discover important variables that help detect the behavior of potential fraud providers. Further, we will study fraudulent patterns in the provider's claims to understand the future behavior of providers.
 
-## Analysis Error (8/21/2024)
-The Jupyter file Health_Insurance_Fraud_Detection.ipyb was the first try at data wrangling and analysis. However, a ROC-AUC curve analysis showed poor True Positive Rates. F1-score Poor. Will need to re-analyze and re-wrangle the data.
+## Health_Insurance_Fraud_Detection_1
+This was my first exposure to the dataset. The data-wrangling mistake was removing data points instead of drawing inferences from data such as DOB, time admitted, time discharged, etc. The trained models poorly detected fraudulent transactions.
 
-## Analysis Update (8/23/2024)
-Redid the data wrangling and retry the model training, validation, and testing. F1 scores and ROC-AUC scores are much better. However, I did not balance the dataset to equal amounts of 'Fraudulent' and "non-fraudulent' transactions. Will continue data wrangling to equalize the data and retrain the models and observe if there is any improvements.
+## Health_Insurance_Fraud_Detection_2
+Second run into data wrangling, I added more data (columns) to the dataset to provide numerical, adequate data for the models to be better trained. After utilizing some data to create more data numerically. I removed the 'no-longer-needed' data. The trained models significantly improved. However, I believe the models can improve if I balance the data.
 
-## How To Improve AUC?
-To improve AUC, it is important to improve the classifier's performance. Several measures could be taken for experimentation. However, it will depend on the problem and the data to decide which measure will work. 
+## Health_Insurance_Fraud_Detection_3
+The data wrangling technique stayed the same but I then removed some of the oversampled data 'Non Fraudulent' data points to match the count with 'Fraudulent' data points. The trained models significantly improved in catching fraudulent transactions; however, the ROC-AUC score decreased due to the low data volume resulting from undersampling. I believe the model can be improved by utilizing alternative methods to combat imbalanced data without undersampling and eliminating too many data points.
 
-(1) Feature normalization and scaling. Basically, this method improves the performance of the linear (logistic) model. 
-
-(2) Improve class imbalance. In classification problems, a bunch of them have imbalanced classes. Setting class weights or performing upward/downward sampling will help. 
-
-(3) Optimize other scores. Defining the right score for the problem and optimizing the score will help the prediction performance. 
-
-(4) Explore different models. Choose the model with the best performance on the problem among the classification models. 
-
-(5) Tune the parameter through grid search. Grid search is an automatic way to tune your parameter.
-
-(6) Error analysis. Review the false positive and false negative cases and find the reasons for this. 
-
-(7) Include more features or fewer features. 
-
-(8) There is also research on optimizing AUC scores directly by investigating the relationship between AUC and error rate or with the models, leading to a more straightforward but also more complicated analysis. 
+## Health_Insurance_Fraud_Detection_4
+The data wrangling technique stayed the same, but I used the SMOTE oversampling technique to create emulated undersampled data points to equalize the dataset. The trained models did better at detecting fraudulent transactions; However, it called too many Non-Fraudulent transactions Fraudulent. This requires further fitting of the SMOTE resampling technique to optimize the emulated data to train the models appropriately.
