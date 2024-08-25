@@ -1,0 +1,75 @@
+MODEL TRAIN (08/24/2024)
+
+Logistic Regression Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       0.77      0.84      0.81        77
+       Fraud       0.82      0.75      0.78        75
+
+    accuracy                           0.80       152
+   macro avg       0.80      0.80      0.80       152
+weighted avg       0.80      0.80      0.80       152
+
+ROC-AUC Curve: 0.90
+------------------------------------------------------
+Shallow Neural Network Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       0.73      0.91      0.81        77
+       Fraud       0.88      0.65      0.75        75
+
+    accuracy                           0.78       152
+   macro avg       0.80      0.78      0.78       152
+weighted avg       0.80      0.78      0.78       152
+
+ROC-AUC Curve: 0.89
+------------------------------------------------------
+Random Forest Classifier Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       0.90      0.74      0.81        77
+       Fraud       0.78      0.92      0.84        75
+
+    accuracy                           0.83       152
+   macro avg       0.84      0.83      0.83       152
+weighted avg       0.84      0.83      0.83       152
+
+ROC-AUC Curve: 0.89
+------------------------------------------------------
+Gradient Boosting Classifier Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       0.77      0.26      0.39        77
+       Fraud       0.55      0.92      0.69        75
+
+    accuracy                           0.59       152
+   macro avg       0.66      0.59      0.54       152
+weighted avg       0.66      0.59      0.54       152
+
+ROC-AUC Curve: 0.67
+------------------------------------------------------
+Linear SVC Model:
+              precision    recall  f1-score   support
+
+   Not Fraud       0.79      0.83      0.81        77
+       Fraud       0.82      0.77      0.79        75
+
+    accuracy                           0.80       152
+   macro avg       0.80      0.80      0.80       152
+weighted avg       0.80      0.80      0.80       152
+
+ROC-AUC Curve: 0.89 
+------------------------------------------------------
+XGBoost Model:
+Test Set Accuracy: 0.8158
+Classification Report:
+               precision    recall  f1-score   support
+
+   Not Fraud       0.88      0.74      0.80        77
+       Fraud       0.77      0.89      0.83        75
+
+    accuracy                           0.82       152
+   macro avg       0.82      0.82      0.81       152
+weighted avg       0.82      0.82      0.81       152
+
+ROC-AUC Curve: 0.88
