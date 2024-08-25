@@ -78,4 +78,4 @@ The data wrangling technique stayed the same but I then removed some of the over
 The data wrangling technique stayed the same, but I used the SMOTE oversampling technique to create emulated undersampled data points to equalize the dataset. The trained models did better at detecting fraudulent transactions; However, it called too many Non-Fraudulent transactions Fraudulent. This requires further fitting of the SMOTE resampling technique to optimize the emulated data to train the models appropriately.
 
 ## Scientific Paper(s) Utilized
-(Statistical Methods for Health Care Fraud Detection)[https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/4/216/files/2015/09/p70-Statistical-Methods-for-Health-Care-Fraud-Detection.pdf]
+[Statistical Methods for Health Care Fraud Detection](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/4/216/files/2015/09/p70-Statistical-Methods-for-Health-Care-Fraud-Detection.pdf)
