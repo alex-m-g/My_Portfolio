@@ -59,7 +59,7 @@ This project aims to " predict the potentially fraudulent providers " based on t
 ## Project Outcomes:
 
 Achieved a significant improvement in fraud detection accuracy, resulting in more accurate identification of fraudulent claims.
-The best-performing model achieved an AUC (Area Under the Curve) score of [X], demonstrating strong discriminatory power between fraudulent and non-fraudulent claims.
+The best-performing model achieved an AUC (Area Under the Curve) score of 0.94, demonstrating strong discriminatory power between fraudulent and non-fraudulent claims.
 Reduced false positives by optimizing model thresholds, improving the precision of fraud detection while minimizing disruptions to legitimate claims.
 Developed a scalable and reusable pipeline for fraud detection that can be adapted for similar datasets in the future.
 Visualized key insights and model performance metrics, aiding stakeholders in understanding model decisions and overall fraud detection strategy.
@@ -75,7 +75,7 @@ Second run into data wrangling, I added more data (columns) to the dataset to pr
 The data wrangling technique stayed the same but I then removed some of the oversampled data 'Non Fraudulent' data points to match the count with 'Fraudulent' data points. The trained models significantly improved in catching fraudulent transactions; however, the ROC-AUC score decreased due to the low data volume resulting from undersampling. I believe the model can be improved by utilizing alternative methods to combat imbalanced data without undersampling and eliminating too many data points.
 
 ### Health_Insurance_Fraud_Detection_4
-The data wrangling technique stayed the same, but I used the SMOTE oversampling technique to create emulated undersampled data points to equalize the dataset. The trained models did better at detecting fraudulent transactions; However, it called too many Non-Fraudulent transactions Fraudulent. This requires further fitting of the SMOTE resampling technique to optimize the emulated data to train the models appropriately.
+The data wrangling technique stayed the same, but I used the SMOTE oversampling technique to create emulated undersampled data points to equalize the dataset. The trained models did better at detecting fraudulent transactions; The highest AUC scores were reported with this method on training the models. However, it called too many Non-Fraudulent transactions Fraudulent. This requires further fitting of the SMOTE resampling technique to optimize the emulated data to train the models appropriately.
 
 ## Scientific Paper(s) Utilized
 [Statistical Methods for Health Care Fraud Detection](https://cpb-us-w2.wpmucdn.com/sites.gatech.edu/dist/4/216/files/2015/09/p70-Statistical-Methods-for-Health-Care-Fraud-Detection.pdf)
