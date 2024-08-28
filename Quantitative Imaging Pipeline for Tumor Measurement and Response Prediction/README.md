@@ -1,7 +1,5 @@
 # Quantitative Imaging Pipeline for Tumor Measurement and Response Prediction
 
-To build a coding project based on this job description, here's a step-by-step approach you could follow:
-
 ## 1. **Project Overview**
    **Title**: *Quantitative Imaging Pipeline for Tumor Measurement and Response Prediction*
    **Goal**: Develop a pipeline that extracts tumor measurements from medical images (CT, MRI) and builds predictive models for tumor response and toxicity.
@@ -62,5 +60,3 @@ To build a coding project based on this job description, here's a step-by-step a
    - Integrate Natural Language Processing (NLP) for extracting relevant clinical data from reports.
    - Explore federated learning to leverage distributed datasets while ensuring patient privacy.
    - Implement explainability methods (e.g., SHAP) to interpret the model's predictions.
-
-This project structure will not only demonstrate your proficiency in data pipelines, image analysis, and machine learning, but also touch on containerization and cloud-based deployment—key elements for the role you’re targeting. Would you like to explore specific components, such as tumor segmentation, or containerization first?
