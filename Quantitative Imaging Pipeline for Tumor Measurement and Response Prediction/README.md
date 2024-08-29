@@ -42,15 +42,28 @@
 
 ## 4. **Steps to Start the Project**
 ###   1. **Set Up the Environment**: Install Python with required libraries (`SimpleITK`, `TensorFlow`, `PyTorch`, `scikit-learn`, etc.). Use your Anaconda environment to manage dependencies.
-###   2. **Data Collection**: Use public datasets like TCIA for tumor imaging data. You can start with sample images and annotations for segmentation tasks.
+###   2. **Data Collection**: Use public datasets like TCIA for tumor imaging data. You can start with sample images and annotations for segmentation tasks. Dataset: [MRI Imaging of Pediatric Patients with High-Grade Gliomas: The Cancer Imaging Archive](https://www.cancerimagingarchive.net/collection/dfci-bch-bwh-peds-hgg/)
 ###   3. **Build the Data Pipeline**:
 - Write Python scripts to automate image loading and preprocessing.
-- Store extracted tumor measurements in a structured database.
+    - [NIfTI Image Processing via Python](https://neuraldatascience.io/8-mri/nifti.html)
+- Store extracted tumor measurements in a **MySQL** structured database. 
+    - Voxel Intensity Values
+    - Tumor Segmentation Labels (If available)
+    - Image Metadata
+    - Tumor-specific Features
+    - Multi-Modal data
+    - Clinical Data (if available)
+    - Pre-processing information
+    - Spatial coordinates
+    - Temporal data (if longitudinal)
 ###   4. **Image Segmentation Model**:
-- Implement a simple convolutional neural network (CNN) model to segment tumors.
+- Implement a simple convolutional neural network (CNN) model to segment tumors. (TensorFlow / PyTorch)
+    - Article: [Convolutional Neural Networks for Brain Tumor Segmentation](https://github.com/user-attachments/files/16805449/s13244-020-00869-4.pdf)
 - Start with pre-trained models (e.g., U-Net for medical image segmentation).
+    - [Pattern Recognition and Image Processing by The University of Freiburg - PreTrained Model](https://lmb.informatik.uni-freiburg.de/resources/software.php)
 ###   5. **Predictive Modeling**:
 - Train machine learning models on extracted features to predict patient outcomes.
+    - Train the model using Database from (3) and Segmented Tumor data from (4)
 - Evaluate models using metrics like accuracy, AUC, or F1 score.
 ###   6. **Containerization**:
 - Write Dockerfiles to containerize your pipeline.
