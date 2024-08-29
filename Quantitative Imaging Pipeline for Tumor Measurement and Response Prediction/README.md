@@ -37,6 +37,8 @@
    - **Containerization**: Docker to containerize your pipeline.
    - **Orchestration**: Kubernetes for managing containerized applications.
    - **Version Control & CI/CD**: GitHub with GitHub Actions for continuous integration.
+   - **GPU Acceleration**: C++/CUDA used for model optimization for minimal GPU interference.
+   - **Cloud Deployment**: Deply the application pipeline on a cloud platform (AWS, GCP) using Kubernetes clusters.
 
 ## 4. **Steps to Start the Project**
 ###   1. **Set Up the Environment**: Install Python with required libraries (`SimpleITK`, `TensorFlow`, `PyTorch`, `scikit-learn`, etc.). Use your Anaconda environment to manage dependencies.
