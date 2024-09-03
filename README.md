@@ -27,29 +27,33 @@ I am passionate about leveraging data science techniques and bioinformatics to s
 ## In Progress Projects
 
 ## Not Started Projects
-### 1. Patient Risk Detection
+### 1. [Patient Risk Prediction](./Patient%20Risk%20Prediction)
 - **Description:** Predicting patient risk factors to improve clinical decision-making and patient outcomes.
 - **Key Techniques:** Predictive modeling, risk stratification, machine learning.
 
-### 2. Genetic Variation Analysis
+### 2. [Genetic Variation Analysis](./Genetic%20Variation%20Analysis)
 - **Description:** Investigation of genetic variations and their associations with phenotypic traits.
 - **Key Techniques:** GWAS, SNP analysis, variant calling.
 
-### 3. Protein Structure Prediction
+### 3. [Protein Structure Prediction](./Protein%20Structure%20Prediction)
 - **Description:** Predicting 3D structures of proteins based on amino acid sequences.
 - **Key Techniques:** Homology modeling, molecular dynamics simulations.
 
-### 4. Disease Outbreak Prediction
+### 4. [Disease Outbreak Prediction](./Disease%20Outbreak%20Prediction)
 - **Description:** Forecasting disease outbreaks to enable proactive public health interventions.
 - **Key Techniques:** Time series analysis, predictive analytics, geospatial analysis.
 
-### 5. Cancer Disease Prediction
+### 5. [Cancer Disease Prediction](./Cancer%20Disease%20Prediction)
 - **Description:** Developing models to predict the likelihood of cancer based on patient data.
 - **Key Techniques:** Classification algorithms, feature engineering, survival analysis.
 
-### 6. Healthcare Supply Chain Optimization
+### 6. [Healthcare Supply Chain Optimization](./Healthcare%20Supply%20Chain%20Optimization)
 - **Description:** Optimizing healthcare supply chains to reduce costs and improve efficiency.
 - **Key Techniques:** Operations research, simulation, optimization algorithms.
+
+### 7. [Quantitative Finance Risk Management](./Quant_Finance_Risk_Management)
+
+### 8. [Quantitative Imaging Pipeline for Tumor Measurement and Response Prediction](./Quantitative%20Imaging%20Pipeline%20for%20Tumor%20Measurement%20and%20Response%20Prediction)
 
 ## Tools and Technologies
 Throughout my projects, I have utilized the following tools and technologies:
