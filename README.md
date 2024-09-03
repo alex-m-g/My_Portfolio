@@ -1,4 +1,4 @@
-# My Data Science and Bioinformatics Portfolio
+# Alexander Manuel Garcia: Data Science and Bioinformatics Portfolio
 
 Welcome to my GitHub repository! This repository showcases a collection of my projects in **Bioinformatics** and **Healthcare Data Science**. These projects demonstrate my skills and expertise in analyzing complex datasets, developing predictive models, and extracting valuable insights from biological and healthcare data.
 
