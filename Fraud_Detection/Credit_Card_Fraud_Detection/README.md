@@ -1,4 +1,4 @@
-### Credit Card Fraud Detection Pipeline
+## Credit Card Fraud Detection Pipeline
 
 **Project Overview:**
 Developed a credit card fraud detection pipeline using an ensemble of machine learning models, including Linear Support Vector Classifier (LinearSVC), Logistic Regression, Gradient Boosting Classifier, and a shallow neural network. The pipeline is designed to identify fraudulent transactions with high accuracy by aggregating predictions from multiple models.
