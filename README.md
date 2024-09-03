@@ -15,7 +15,7 @@ Welcome to my GitHub repository! This repository showcases a collection of my pr
 I am passionate about leveraging data science techniques and bioinformatics to solve real-world problems in healthcare and biology. My work involves analyzing high-dimensional data, predicting disease outcomes, and optimizing healthcare processes. Below are the key areas of my expertise and the projects I have worked on.
 
 ## Completed Projects
-### 1. scRNA-seq Analysis
+### 1. [scRNA-seq Analysis](./scRNA-seq%20Analysis/README.md)
 - **Description:** Analysis of single-cell RNA sequencing data to identify cell populations, gene expression patterns, and biomarkers.
 - **Key Techniques:** Dimensionality reduction (PCA, t-SNE), clustering, differential expression analysis.
 
