@@ -52,8 +52,12 @@ I am passionate about leveraging data science techniques and bioinformatics to s
 - **Key Techniques:** Operations research, simulation, optimization algorithms.
 
 ### 7. [Quantitative Finance Risk Management](./Quant_Finance_Risk_Management)
+- **Description:** Develop a robust quantitative model to analyze and manage the risk associated with an investment portfolio.
+- **Key Techniques:** Performance and statistical analytics and market simulation testing.
 
 ### 8. [Quantitative Imaging Pipeline for Tumor Measurement and Response Prediction](./Quantitative%20Imaging%20Pipeline%20for%20Tumor%20Measurement%20and%20Response%20Prediction)
+- **Description:** Develop a pipeline that extracts tumor measurements from medical images (CT, MRI) and builds predictive models for tumor response and toxicity.
+- **Key Techniques:** Image Analysis using CNN and predictive model for pathogenesis response.
 
 ## Tools and Technologies
 Throughout my projects, I have utilized the following tools and technologies:
