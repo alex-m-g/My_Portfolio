@@ -19,7 +19,7 @@ I am passionate about leveraging data science techniques and bioinformatics to s
 - **Description:** Analysis of single-cell RNA sequencing data to identify cell populations, gene expression patterns, and biomarkers.
 - **Key Techniques:** Dimensionality reduction (PCA, t-SNE), clustering, differential expression analysis.
 
-### 2. Health Insurance Fraud Detection / Credit Card Fraud Detection
+### 2. [Health Insurance Fraud Detection](./Fraud_Detection/Health_Insurance_Fraud_Detection) / [Credit Card Fraud Detection](./Fraud_Detection/Credit_Card_Fraud_Detection)
 - **Description:** Identifying fraudulent claims in health insurance using data-driven methods.
 - **Key Techniques:** Anomaly detection, machine learning, pattern recognition.
   
