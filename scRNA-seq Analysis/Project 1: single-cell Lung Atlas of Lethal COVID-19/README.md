@@ -58,3 +58,10 @@ There is only a provided Jupyter notebook to preview my results. However, a Pyth
 - Comparisons between genes in different conditions
 - Statistical testing
 - Scored cells based on their expression of gene signatures... and plotted it
+
+## Skills:
+- **Programming Languages:** Python (Pandas, Numpy)
+- **Data Processing and Analysis:** ScanPy, scVI, SOLO
+- **Machine Learning & Deep Learning:** Variational Autoencoders (VAE), scVI model training, doublet detection using SOLO.
+- **Bioinformatics:** Gene filtering, Quality control metrics calculations, Differential Expression Analysis.
+- **Data Visualization:** Plotting gene markers, differential expression heatmaps.
