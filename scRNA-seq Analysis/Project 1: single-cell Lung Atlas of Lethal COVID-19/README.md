@@ -34,11 +34,11 @@ I used scanpy and Scvi tools to preprocess and integrate the raw patient samples
 
 While preparing for integration, I ran into a MemmoryError as calling an array containing high dimensional data of multiple samples demanded too much RAM than my computer could handle. I also tried splitting the sample data into multiple chunks of arrays to call them independently however, as I try to concatenate them to integrate them, the program fails.
 
-Solution: Purchase a computer with the specified requirements
--  RAM: 32-128GB
--  CPU: 8+ core processor
--  GPU: NVIDIA RTX 30 series or higher
--  Storage: 1TB
+## Computer Specifications:
+-  Processor: Intel Core i3
+-  RAM: 8GB
+-  GPU: None
+-  Storage: 512 GB
 
 ## Instructions on How to Run the Code
 
