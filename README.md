@@ -4,8 +4,9 @@ Welcome to my GitHub repository! This repository showcases a collection of my pr
 
 ## Table of Contents
 - [Introduction](#introduction)
-- [Bioinformatics Projects](#bioinformatics-projects)
-- [Healthcare Data Science Projects](#healthcare-data-science-projects)
+- [Completed Projects](#completed-projects)
+- [In Progress Projects](#in-progress-projects)
+- [Not Started Projects](#not-started-projects)
 - [Tools and Technologies](#tools-and-technologies)
 - [How to Use This Repository](#how-to-use-this-repository)
 - [Contact](#contact)
@@ -13,11 +14,23 @@ Welcome to my GitHub repository! This repository showcases a collection of my pr
 ## Introduction
 I am passionate about leveraging data science techniques and bioinformatics to solve real-world problems in healthcare and biology. My work involves analyzing high-dimensional data, predicting disease outcomes, and optimizing healthcare processes. Below are the key areas of my expertise and the projects I have worked on.
 
-## Bioinformatics Projects
+## Completed Projects
 ### 1. scRNA-seq Analysis
 - **Description:** Analysis of single-cell RNA sequencing data to identify cell populations, gene expression patterns, and biomarkers.
 - **Key Techniques:** Dimensionality reduction (PCA, t-SNE), clustering, differential expression analysis.
+
+### 2. Health Insurance Fraud Detection / Credit Card Fraud Detection
+- **Description:** Identifying fraudulent claims in health insurance using data-driven methods.
+- **Key Techniques:** Anomaly detection, machine learning, pattern recognition.
   
+
+## In Progress Projects
+
+## Not Started Projects
+### 1. Patient Risk Detection
+- **Description:** Predicting patient risk factors to improve clinical decision-making and patient outcomes.
+- **Key Techniques:** Predictive modeling, risk stratification, machine learning.
+
 ### 2. Genetic Variation Analysis
 - **Description:** Investigation of genetic variations and their associations with phenotypic traits.
 - **Key Techniques:** GWAS, SNP analysis, variant calling.
@@ -26,26 +39,17 @@ I am passionate about leveraging data science techniques and bioinformatics to s
 - **Description:** Predicting 3D structures of proteins based on amino acid sequences.
 - **Key Techniques:** Homology modeling, molecular dynamics simulations.
 
-## Healthcare Data Science Projects
-### 1. Patient Risk Detection
-- **Description:** Predicting patient risk factors to improve clinical decision-making and patient outcomes.
-- **Key Techniques:** Predictive modeling, risk stratification, machine learning.
-
-### 2. Disease Outbreak Prediction
+### 4. Disease Outbreak Prediction
 - **Description:** Forecasting disease outbreaks to enable proactive public health interventions.
 - **Key Techniques:** Time series analysis, predictive analytics, geospatial analysis.
 
-### 3. Cancer Disease Prediction
+### 5. Cancer Disease Prediction
 - **Description:** Developing models to predict the likelihood of cancer based on patient data.
 - **Key Techniques:** Classification algorithms, feature engineering, survival analysis.
 
-### 4. Healthcare Supply Chain Optimization
+### 6. Healthcare Supply Chain Optimization
 - **Description:** Optimizing healthcare supply chains to reduce costs and improve efficiency.
 - **Key Techniques:** Operations research, simulation, optimization algorithms.
-
-### 5. Health Insurance Fraud Detection
-- **Description:** Identifying fraudulent claims in health insurance using data-driven methods.
-- **Key Techniques:** Anomaly detection, machine learning, pattern recognition.
 
 ## Tools and Technologies
 Throughout my projects, I have utilized the following tools and technologies:
@@ -69,7 +73,3 @@ Feel free to reach out to me if you have any questions or if you'd like to discu
 - **LinkedIn:** [https://www.linkedin.com/in/alexander-m-garcia/]
 
 Thank you for visiting my repository! I hope you find my work interesting and valuable.
-
----
-
-Feel free to customize the details, add links, or modify any section to better suit your personal style or additional projects you might have.
