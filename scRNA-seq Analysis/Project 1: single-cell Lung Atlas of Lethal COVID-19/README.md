@@ -31,8 +31,20 @@ File: GSE171524_RAW.tar
 I used scanpy and Scvi tools to preprocess and integrate the raw patient samples. 
 
 ## Results and Analysis
+### Cell Type Analysis
+![cell_type identification1](https://github.com/user-attachments/assets/5c9058d3-1a4f-47fb-8e72-2c77b4da98a9)
+![cell_type identification2](https://github.com/user-attachments/assets/37abf79b-3996-4c3c-b16b-6ab3ebfe8055)
+### Cell Type Frequency in Control vs COVID Paitents
+![ctr_covid_cell_type_expression Analysis](https://github.com/user-attachments/assets/6cc5f1e7-aa15-4109-850d-0a172fb7b58e)
+### Cell Type Frequency Heatmap in AT1 vs. AT2 (Differential Expression)
+![differential_expression_heatmap](https://github.com/user-attachments/assets/ea8b6e44-12f7-429a-ac9c-658fc81bb282)
+### Gene Ontology Enrichment
+Pending...
+### Score Gene Signature
+Pending...
 
-While preparing for integration, I ran into a MemmoryError as calling an array containing high dimensional data of multiple samples demanded too much RAM than my computer could handle. I also tried splitting the sample data into multiple chunks of arrays to call them independently however, as I try to concatenate them to integrate them, the program fails.
+
+While preparing for integration, I ran into a MemmoryError as calling an array containing high dimensional data of multiple samples demanded too much RAM than my computer could handle. After aide with colleagues, my computer specifications simply cannot pass the integration section of the code. Solution: Integrate a smaller set of samples. Instead of 26 patient samples, I reduced it to 3 control and 3 COVID patient samples. 
 
 ## Computer Specifications:
 -  Processor: Intel Core i3
@@ -42,7 +54,7 @@ While preparing for integration, I ran into a MemmoryError as calling an array c
 
 ## Instructions on How to Run the Code
 
-There is only a provided Jupyter notebook to preview my results. However, a Python file will be provided once the problem has been resolved.
+Pending...
 
 ## Accomplishments:
 - Pre-processing clustering with one sample
