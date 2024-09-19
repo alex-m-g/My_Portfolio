@@ -4,8 +4,6 @@
 
 Identify lung tissue responses to COVID-19 infection from 26 patients (19 individuals who died from COVID-19, 7 control individuals).
 
-I will utilize the same dataset used in the paper and perform scRNA-seq analysis to emulate the results the cited paper produced.
-
 ## Dataset
 
 Status:	Public on Apr 29, 2021
