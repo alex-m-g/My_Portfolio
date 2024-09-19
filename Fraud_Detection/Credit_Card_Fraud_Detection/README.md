@@ -15,6 +15,7 @@ Developed a credit card fraud detection pipeline using an ensemble of machine le
 - **Libraries:** Pandas, NumPy, Scikit-learn, TensorFlow, Keras
 - **Tools:** ModelCheckpoint (for saving the best neural network model), `classification_report` (for model evaluation)
 
-This description provides a comprehensive overview of the project, highlights your contributions, and lists the technologies you used.
+## Pipeline Program
+[Credit Card Fraud Detection Model](./Credit_Card_Fraud_Detection_Pipeline.py)
 ## Dataset
 CSV File: [Credit Card Dataset](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud?select=creditcard.csv)
