@@ -2,7 +2,7 @@
 
 ## Description
 
-This paper generated a single-cell transcriptome lung atlas of COVID-19 using short-PMI autopsy specimens and control lung samples. The analysis provides a broad census of the cellular landscape, cell programs, and cell circuits of lethal COVID-19.
+Identify lung tissue responses to COVID-19 infection from 26 patients (19 individuals who died from COVID-19, 7 control individuals).
 
 I will utilize the same dataset used in the paper and perform scRNA-seq analysis to emulate the results the cited paper produced.
 
@@ -24,37 +24,31 @@ Citation: Melms JC, Biermann J, Huang H, Wang Y, et al. A molecular single-cell 
 
 PMID: 33915568
 
-File: GSE171524_RAW.tar
-
-## Code Implementation
-
-I used scanpy and Scvi tools to preprocess and integrate the raw patient samples. 
-
 ## Results and Analysis
-### Cell Type Analysis
-![cell_type identification1](https://github.com/user-attachments/assets/5c9058d3-1a4f-47fb-8e72-2c77b4da98a9)
-![cell_type identification2](https://github.com/user-attachments/assets/37abf79b-3996-4c3c-b16b-6ab3ebfe8055)
-### Cell Type Frequency in Control vs COVID Paitents
-![ctr_covid_cell_type_expression Analysis](https://github.com/user-attachments/assets/6cc5f1e7-aa15-4109-850d-0a172fb7b58e)
-### Cell Type Frequency Heatmap in AT1 vs. AT2 (Differential Expression)
+### Cell Marker Identification
+![Cell_Marker_Identification](https://github.com/user-attachments/assets/c9137684-ab6a-4fa2-9cdf-2cfc9552ef31)
+![Cell_Marker_Identification](https://github.com/user-attachments/assets/c9e2b2e1-e5be-4aff-b992-64be62f32e5a)
+
+### Cell Type Frequency in Control vs COVID Patients
+![fig1](https://github.com/user-attachments/assets/c79f2ed6-3817-408c-bcd5-21d08577288e)
+
+### Gene Expression Heatmap in AT1 vs. AT2 (Differential Expression)
 ![differential_expression_heatmap](https://github.com/user-attachments/assets/ea8b6e44-12f7-429a-ac9c-658fc81bb282)
+
+### Gene Expression Heatmap in COVID-19 Patients vs. Control Patients (Differential Expression)
+![heatmap_2](https://github.com/user-attachments/assets/1d04347b-7a1a-4737-89da-479f323a3d44)
+
+
 ### Gene Ontology Enrichment
-Pending...
-### Score Gene Signature
-Pending...
+This violin plot compares the different expressions of gene 'ETV5' in COVID-19 patients and Control patients. The p-value is listed above. 
 
-
-While preparing for integration, I ran into a MemmoryError as calling an array containing high dimensional data of multiple samples demanded too much RAM than my computer could handle. After aide with colleagues, my computer specifications simply cannot pass the integration section of the code. Solution: Integrate a smaller set of samples. Instead of 26 patient samples, I reduced it to 3 control and 3 COVID patient samples. 
+![violin_plot1](https://github.com/user-attachments/assets/7d304b9d-76a0-4838-8671-77703bb853c2)
 
 ## Computer Specifications:
--  Processor: Intel Core i3
--  RAM: 8GB
--  GPU: None
--  Storage: 512 GB
-
-## Instructions on How to Run the Code
-
-Pending...
+-  Processor: Intel Core i7
+-  RAM: 32GB
+-  GPU: Intel iRISxe
+-  Storage: 1 TB
 
 ## Accomplishments:
 - Pre-processing clustering with one sample
