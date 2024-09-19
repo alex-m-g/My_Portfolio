@@ -22,6 +22,12 @@ Citation: Melms JC, Biermann J, Huang H, Wang Y, et al. A molecular single-cell 
 
 PMID: 33915568
 
+## Files
+1.  scRNA_seq_Data_Analysis_COIVD19.ipynb : Processed a single file to fine-tune the parameters for integration.
+2.  scRNA_seq_Analysis_Integration.ipynb : Integrated all patient samples. Output file "combined.h5ad"
+3.  scRNA_seq_Analysis_Cell_Marker_Labeling.ipynb : Processed the "combined.h5ad" file to train SCVI model, clustering, and identify cell types. Output file "integrated.h5ad"
+4.  scRNA_seq_Analysis.ipynb : Opened the "integrated.h5ad" file to analyze and develop visualizations identify the effects of COVID-19.
+
 ## Results and Analysis
 ### Cell Marker Identification
 ![Cell_Marker_Identification](https://github.com/user-attachments/assets/c9137684-ab6a-4fa2-9cdf-2cfc9552ef31)
