@@ -23,15 +23,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import accuracy_score, classification_report, roc_curve, roc_auc_score, confusion_matrix, ConfusionMatrixDisplay
 from imblearn.over_sampling import SMOTE
 from imblearn.pipeline import Pipeline
-
 import joblib
 import xgboost as xgb
-from sklearn.linear_model import LogisticRegression
-from sklearn.svm import LinearSVC
-from sklearn.ensemble import GradientBoostingClassifier
-from sklearn.metrics import roc_curve, roc_auc_score, confusion_matrix, ConfusionMatrixDisplay, classification_report
-import matplotlib.pyplot as plt
-import numpy as np
 
 def ensemble_model(x_train, y_train, x_test, y_test, x_val, y_val):
     # 1. Train the models
