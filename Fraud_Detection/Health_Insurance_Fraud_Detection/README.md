@@ -19,6 +19,8 @@ e) Billing for a covered service when the service actually provided was not cove
 Problem Statement
 This project aims to " predict the potentially fraudulent providers " based on the claims filed by them. We will also discover important variables that help detect the behavior of potential fraud providers. Further, we will study fraudulent patterns in the provider's claims to understand the future behavior of providers.
 
+## Pipeline File
+[Health Insurance Fraud Detection Model](./Health_Insurance_Fraud_Detection_Pipeline.py)
 
 ## Libraries and Frameworks:
 
