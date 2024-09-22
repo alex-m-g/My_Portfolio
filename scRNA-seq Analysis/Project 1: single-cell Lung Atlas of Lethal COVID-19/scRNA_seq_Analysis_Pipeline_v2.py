@@ -474,12 +474,12 @@ def analysis(main_file, model_file):
 def main():
     folder = 'GSE171524_RAW'
 
-    # Step 1: Run parameter adjustment
-    #parameter_adjust(folder)
+    #Step 1: Run parameter adjustment
+    parameter_adjust(folder)
 
-    # Step 2: Run integration and collect garbage after it's done
-    #integration(folder, cutoff_value)
-    #print("Finished integration, running garbage collection...")
+    #Step 2: Run integration and collect garbage after it's done
+    integration(folder, cutoff_value)
+    print("Finished integration, running garbage collection...")
     gc.collect()  # Collects any unreferenced objects to free memory
 
     # Step 3: Run processing and collect garbage after it's done
