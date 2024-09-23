@@ -14,8 +14,7 @@ def crop_and_resize(image_path, output_path, crop_area, resize_dim):
     resized_img = cropped_img.resize(resize_dim)
     
     # Save the resized image
-    resized_img.save(output_path1)
-    resized_img.save(output_path2)
+    resized_img.save(output_path)
 
 # Example usage, change the name for each player shooting or goalkeeping
 # annotation ([1 or 0] successful shooting/goalkeeping?)_(first initial_last name)_(file number)
