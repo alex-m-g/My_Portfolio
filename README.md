@@ -27,6 +27,8 @@ I am passionate about leveraging data science techniques and bioinformatics to s
   
 
 ## In Progress Projects
+### 1. 2022 FIFA World Cup Final - Argentina vs. France
+-  Argentina's heroic win is a perfect conclusion to define the height of Lionel Messi's career. With the Final game reaching penalty shootouts, was Argentina more skilled than France to win it all? Or was it by shear luck, defying the odds?
 
 ## Not Started Projects
 ### 1. [Patient Risk Prediction](./Patient%20Risk%20Prediction)
