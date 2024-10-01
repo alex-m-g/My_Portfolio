@@ -29,6 +29,7 @@ I am passionate about leveraging data science techniques and bioinformatics to s
 ## In Progress Projects
 ### 1. [2022 FIFA World Cup Final - Argentina vs. France](./2022_FIFA_World_Cup_Final)
 -  Argentina's heroic win is a perfect conclusion to define the height of Lionel Messi's career. With the Final game reaching penalty shootouts, was Argentina more skilled than France to win it all? Or was it by shear luck, defying the odds?
+-  Goal: Develop a ML-CNN model using PyTorch to predict chances of scoring a penalty shot based on body positioning.
 -  Current progress: Building the dataset.
 
 ## Not Started Projects
