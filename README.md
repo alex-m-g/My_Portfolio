@@ -19,6 +19,7 @@ I am passionate about leveraging data science techniques and bioinformatics to s
 - **Description:** Analysis of single-cell RNA sequencing data to identify cell populations, gene expression patterns, and biomarkers.
 - **Key Techniques:** Dimensionality reduction (PCA, t-SNE), clustering, differential expression analysis.
 - **Final File:** [scRNAseq Analysis Model](./scRNA-seq%20Analysis/Project%201:%20single-cell%20Lung%20Atlas%20of%20Lethal%20COVID-19/scRNA_seq_Analysis_Pipeline_v2.py)
+- **Next Follow Up Project:** Perform a simple RNA-Seq Pipeline via Nextflow (workflow management system).
 
 ### 2. [Health Insurance Fraud Detection](./Fraud_Detection/Health_Insurance_Fraud_Detection) / [Credit Card Fraud Detection](./Fraud_Detection/Credit_Card_Fraud_Detection)
 - **Description:** Identifying fraudulent claims in health insurance using data-driven methods.
