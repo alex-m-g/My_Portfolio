@@ -17,7 +17,7 @@ jobs:
       uses: actions/setup-python@v3
       with:
         python-version: '3.12.3'
-
+        
     - name: Install dependencies
       run: |
         pip install -r requirements.txt
@@ -34,12 +34,12 @@ jobs:
 
     - name: Run Fraud Detection Model
       run: |
-        python Health_Insurance_Fraud_Detection_Pipeline.py
+        python Health_Insurance_Fraud_Detection_Pipeline.py  # Running your main fraud detection script
 
     - name: Save Visualizations
       run: |
         mkdir -p output
-        python generate_visualizations.py  # Assuming this script generates visualizations and saves them to 'output' folder
+        mv *.png output/  # Assuming your script saves visualizations as .png files
 
     - name: Commit and Push Visualizations
       run: |
