@@ -1,0 +1,50 @@
+name: Fraud Detection Automation
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  run_model:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: Set up Python
+      uses: actions/setup-python@v3
+      with:
+        python-version: '3.x'  # Specify your Python version
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Download Kaggle Dataset
+      env:
+        KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+        KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+      run: |
+        mkdir -p ~/.kaggle
+        echo "{\"username\":\"${{ secrets.KAGGLE_USERNAME }}\",\"key\":\"${{ secrets.KAGGLE_KEY }}\"}" > ~/.kaggle/kaggle.json
+        chmod 600 ~/.kaggle/kaggle.json
+        kaggle datasets download -d rohitrox/healthcare-provider-fraud-detection-analysis --unzip -p ./data
+
+    - name: Run Fraud Detection Model
+      run: |
+        python run_model.py  # Your script to run the fraud detection model
+
+    - name: Save Visualizations
+      run: |
+        mkdir -p output
+        python generate_visualizations.py  # Assuming this script generates visualizations and saves them to 'output' folder
+
+    - name: Commit and Push Visualizations
+      run: |
+        git config --global user.name "Your Name"
+        git config --global user.email "youremail@example.com"
+        git add output/*
+        git commit -m "Add updated data visualizations"
+        git push origin main
