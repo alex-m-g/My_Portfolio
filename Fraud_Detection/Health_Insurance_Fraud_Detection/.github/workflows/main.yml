@@ -41,10 +41,24 @@ jobs:
         mkdir -p output
         mv *.png output/  # Assuming your script saves visualizations as .png files
 
+    - name: Save Model Files
+      run: |
+        mkdir -p models
+        mv *.pkl models/  # Move model files to the 'models' directory
+
+    - name: Set up Git
+      run: |
+        git config --global user.name "alex-m-g"
+        git config --global user.email "alexg9630@gmail.com"
+
+    - name: Commit and Push Models
+      run: |
+        git add models/*
+        git commit -m "Add updated model files"
+        git push origin main
+
     - name: Commit and Push Visualizations
       run: |
-        git config --global user.name "Your Name"
-        git config --global user.email "youremail@example.com"
         git add output/*
         git commit -m "Add updated data visualizations"
         git push origin main
