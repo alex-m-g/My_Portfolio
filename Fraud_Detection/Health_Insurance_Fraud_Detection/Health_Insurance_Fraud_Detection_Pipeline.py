@@ -139,6 +139,9 @@ def ensemble_model(x_train, y_train, x_test, y_test, x_val, y_val):
 
     print(f"Trained Models saved to local hard drive: 'xgboost_model.pkl', 'log_reg_model.pkl', 'linear_svc_model.pkl', 'gradient_boost_model.pkl'.")
 
+    plt.savefig('output/roc_auc_curve.png') # Save the ROC-AUC curve
+    plt.savefig('output/confusion_matrix_heatmap.png') # save the confusion matrix heatmap
+
 
 def data_wrangle(folder):
     files = []
