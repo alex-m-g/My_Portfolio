@@ -2,7 +2,7 @@
 Predicting patient risk factors to improve clinical decision-making and patient outcomes.
 
 ## Heart Attack Analysis & Prediction
-Link: [https://www.kaggle.com/datasets/rashikrahmanpritom/heart-attack-analysis-prediction-dataset/data]
+Link: [UCIrvine Heart Disease Dataset](https://archive.ics.uci.edu/dataset/45/heart+disease)]
 
 ### Key Techniques
 - Predictive modeling, risk stratification, machine learning
